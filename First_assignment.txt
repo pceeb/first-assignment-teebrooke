@@ -1,0 +1,36 @@
+Hello Students,
+
+This is what you have to do for homework.
+Remember the deadline to submit the HW is Wenesday at 8:00:00 am.
+
+I. Read chapter 2 from the book Introduction to Scientific Computing for Biologists Author.   
+The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
+
+II. Answer the following question. What does this do?   
+
+1. ls [A-Z]*
+2. cp *.sh /tmp
+3. man pwd
+4. cd ~
+5. mkdir -p /test1/test2/test3 
+6. cp -r /tmp .
+7. ls | less
+8. head -n 24 test.txt » abc.txt
+9. echo "aaa" > aaa.txt
+10. ps -u sallesina
+11. top
+12. ls | grep .sh | xargs mv /tmp
+13. du -sk /home/* | sort -r -n | head -10
+14. sort -r names.txt
+
+**IMPORTANT** 
+To submit your answers you must do the following:
+- Login into hoffman.
+- Clone this repository in your home directory.
+- Include your answers in this document using nano (Remember "CTR + X" save the document in nano).
+- Save your changes and push them to your repository. 
+*Note*:If you are NOT sure on how to do this go to Vertion control documents available online
+
+Let me know if you have questions. You can also post your questions in the Discussion forum of the course website.
+
+Daniel
