@@ -8,20 +8,20 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
-2. cp *.sh /tmp
-3. man pwd
-4. cd ~
-5. mkdir -p /test1/test2/test3 
-6. cp -r /tmp .
-7. ls | less
-8. head -n 24 test.txt » abc.txt
-9. echo "aaa" > aaa.txt
-10. ps -u sallesina
-11. top
-12. ls | grep .sh | xargs mv /tmp
-13. du -sk /home/* | sort -r -n | head -10
-14. sort -r names.txt
+1. ls [A-Z]*  (lists the files of the directory A-Z)
+2. cp *.sh /tmp  (Copy a temporary file with zero or more characters, except a leading dot (hidden file))
+3. man pwd     (Show the help page of the current directory)
+4. cd ~    (Takes you to your home directory)
+5. mkdir -p /test1/test2/test3    (Create test1 and test2 and test3)
+6. cp -r /tmp .     (Copy a template recursively) 
+7. ls | less    (Allows you to view and to count how many files are in the root directory and print what is on the screen)
+8. head -n 24 test.txt » abc.txt    (Print the first 24 lines of the test text to the abc text) 
+9. echo "aaa" > aaa.txt   (Print a string from aaa text) 
+10. ps -u sallesina       (Provides detailed information about sallesina)
+11. top    (Shows precursor activity in real time)
+12. ls | grep .sh | xargs mv /tmp      (Lists the files in the current working directory)
+13. du -sk /home/* | sort -r -n | head -10   (Checks disk space used and sorts the first 10 pages)
+14. sort -r names.txt    (Sorts the lines of a file and prints the results)
 
 **IMPORTANT** 
 To submit your answers you must do the following:
