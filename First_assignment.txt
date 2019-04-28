@@ -8,20 +8,49 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*  (lists the files of the directory A-Z)
+1. ls [A-Z]*  (lists the files of the directory A-Z) 
+#List all files whit uppercase
+
 2. cp *.sh /tmp  (Copy a temporary file with zero or more characters, except a leading dot (hidden file))
+# Incorrect! `*` is a wildcard to copy all .sh files to the tmp direcotory  
+
 3. man pwd     (Show the help page of the current directory)
+# Incorrect! help for the pwd command
+
 4. cd ~    (Takes you to your home directory)
+# Correct!
+
 5. mkdir -p /test1/test2/test3    (Create test1 and test2 and test3)
+# Correct! But what is -p doing???
+
 6. cp -r /tmp .     (Copy a template recursively) 
+# Correct!
+
 7. ls | less    (Allows you to view and to count how many files are in the root directory and print what is on the screen)
+# Correct! But it wil print on a less format
+
 8. head -n 24 test.txt » abc.txt    (Print the first 24 lines of the test text to the abc text) 
+# Correct!
+
 9. echo "aaa" > aaa.txt   (Print a string from aaa text) 
+# Correct!
+
 10. ps -u sallesina       (Provides detailed information about sallesina)
+# Waht information
+
 11. top    (Shows precursor activity in real time)
+# Correct!
+
 12. ls | grep .sh | xargs mv /tmp      (Lists the files in the current working directory)
+# Incorrect! Takes output of ls (all avaible files) names and sends the names into grep. Grep then will search the shell for 
+these specific directories or files and send located ones as input to xargs mv /tmp command which adds the files output by grep to the
+tmp folder.
+
 13. du -sk /home/* | sort -r -n | head -10   (Checks disk space used and sorts the first 10 pages)
+# Correct!
+
 14. sort -r names.txt    (Sorts the lines of a file and prints the results)
+# Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
